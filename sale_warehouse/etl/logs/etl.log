@@ -1,0 +1,48 @@
+2026-01-01 10:50:31,284 - INFO - ETL Started
+2026-01-01 10:50:31,298 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer.csv with 18484 rows
+2026-01-01 10:50:31,310 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer_location.csv with 18484 rows
+2026-01-01 10:50:31,345 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer_info.csv with 18499 rows
+2026-01-01 10:50:31,345 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\product_categories.csv with 37 rows
+2026-01-01 10:50:31,357 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\product_info.csv with 398 rows
+2026-01-01 10:50:31,410 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\sales_details.csv with 60398 rows
+2026-01-01 10:50:38,016 - INFO - Transformed dim_customer: 4 new/changed rows (SCD2 applied)
+2026-01-01 10:50:38,312 - INFO - Transformed dim_product: 3 new/changed rows (SCD2 applied)
+2026-01-01 10:50:38,323 - INFO - Transformed dim_date with 1142 rows
+2026-01-01 10:50:38,694 - INFO - Transformed fact_sales with 89866 rows
+2026-01-01 10:50:38,762 - INFO - Marked 2 rows as expired in dim_customer
+2026-01-01 10:50:38,773 - INFO - Loaded 4 new/changed rows into dim_customer
+2026-01-01 10:50:38,784 - INFO - Marked 2 rows as expired in dim_product
+2026-01-01 10:50:38,793 - INFO - Loaded 2 new/changed rows into dim_product
+2026-01-01 10:50:38,793 - INFO - No new rows to load into dim_date
+2026-01-01 10:50:38,793 - INFO - No new rows to load into fact_sales
+2026-01-01 10:50:38,793 - INFO - ETL Finished Successfully
+2026-01-01 10:52:59,361 - INFO - ETL Started
+2026-01-01 10:52:59,378 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer.csv with 18484 rows
+2026-01-01 10:52:59,390 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer_location.csv with 18484 rows
+2026-01-01 10:52:59,407 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer_info.csv with 18499 rows
+2026-01-01 10:52:59,407 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\product_categories.csv with 37 rows
+2026-01-01 10:52:59,414 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\product_info.csv with 398 rows
+2026-01-01 10:52:59,474 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\sales_details.csv with 60398 rows
+2026-01-01 10:52:59,603 - INFO - Transformed dim_customer: 18493 new/changed rows (SCD2 applied)
+2026-01-01 10:52:59,618 - INFO - Transformed dim_product: 398 new/changed rows (SCD2 applied)
+2026-01-01 10:52:59,630 - INFO - Transformed dim_date with 1142 rows
+2026-01-01 10:52:59,870 - INFO - Transformed fact_sales with 60436 rows
+2026-01-01 10:53:00,750 - INFO - Loaded 18493 new/changed rows into dim_customer
+2026-01-01 10:53:00,777 - INFO - Loaded 398 new/changed rows into dim_product
+2026-01-01 10:53:00,820 - INFO - Loaded 1139 rows into dim_date
+2026-01-01 10:54:40,476 - INFO - ETL Started
+2026-01-01 10:54:40,496 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer.csv with 18484 rows
+2026-01-01 10:54:40,508 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer_location.csv with 18484 rows
+2026-01-01 10:54:40,529 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\customer_info.csv with 18499 rows
+2026-01-01 10:54:40,530 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\product_categories.csv with 37 rows
+2026-01-01 10:54:40,532 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\product_info.csv with 398 rows
+2026-01-01 10:54:40,579 - INFO - Read c:\Users\Dell\pythonDA\sale_warehouse\data\sales_details.csv with 60398 rows
+2026-01-01 10:54:40,714 - INFO - Transformed dim_customer: 18493 new/changed rows (SCD2 applied)
+2026-01-01 10:54:40,728 - INFO - Transformed dim_product: 398 new/changed rows (SCD2 applied)
+2026-01-01 10:54:40,747 - INFO - Transformed dim_date with 1142 rows
+2026-01-01 10:54:40,982 - INFO - Transformed fact_sales with 60436 rows
+2026-01-01 10:54:41,854 - INFO - Loaded 18493 new/changed rows into dim_customer
+2026-01-01 10:54:41,873 - INFO - Loaded 398 new/changed rows into dim_product
+2026-01-01 10:54:41,923 - INFO - Loaded 1139 rows into dim_date
+2026-01-01 10:54:43,903 - INFO - Loaded 60436 rows into fact_sales
+2026-01-01 10:54:43,903 - INFO - ETL Finished Successfully
